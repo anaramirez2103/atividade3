@@ -1,0 +1,69 @@
+/* Resetando margens e padding para garantir um layout mais consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo uma fonte mais legível para a página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Cor de fundo suave */
+    color: #333; /* Cor de texto escura */
+    line-height: 1.6;
+}
+
+/* Container para o conteúdo do header */
+.container {
+    width: 80%;
+    margin: 0 auto; /* Centraliza o conteúdo */
+    text-align: center; /* Centraliza os elementos no header */
+    padding: 50px 0;
+}
+
+/* Estilizando o título principal */
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Estilizando os subtítulos */
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo do link (que será o botão) */
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito hover para o botão */
+.btn:hover {
+    background-color: #2980b9; /* Cor de fundo mais escura ao passar o mouse */
+    transform: translateY(-3px); /* Leve efeito de "elevação" */
+}
+
+/* Efeito de foco (quando o botão é clicado) */
+.btn:focus {
+    outline: none; /* Remove o contorno padrão do foco */
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7); /* Adiciona um brilho ao foco */
+}
+
+/* Garantindo um espaçamento adequado entre os elementos */
+header {
+    background-color: #ecf0f1;
+    padding: 30px 0;
+    border-bottom: 2px solid #bdc3c7;
+}
+
